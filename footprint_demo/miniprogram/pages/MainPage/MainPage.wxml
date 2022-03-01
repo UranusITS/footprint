@@ -1,0 +1,10 @@
+<!--pages/MainPage.wxml-->
+
+<view>
+	<view>
+		<map></map>
+	</view>
+	<tabBar>
+	</tabBar>
+
+</view>

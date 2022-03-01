@@ -1,0 +1,30 @@
+/* components/tabbar/tabbar.wxss */
+.tab-bar {
+	width: 100%;
+	height: 10vh;
+	position: absolute;
+	bottom: 0;
+	background: #fffef5;
+	display: flex;
+	z-index: 1;
+  }
+
+  .section_item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5rpx 0 0 0;
+  }
+  .section_item .section_image {
+	width: 55rpx;
+	height: 55rpx;
+  }
+  .section_item .section_title {
+	font-size: 30rpx;
+	font-weight:300;
+	color:#000000;
+	background-color: #fffef5;
+  }
+  
