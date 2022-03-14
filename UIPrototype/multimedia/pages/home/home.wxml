@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<view class="container" >
+<view class="th">
+<input type="text" placeholder="输入你的主题" placeholder-class="theme" placeholder-style="color:black"
+maxlength="30" cursor-spacing="10px"   />
+</view>
+<view class="mode">
+<text>模板</text>
+<button class="modebutton" style="width: 10px;" >></button>
+</view>
+<view class="music">
+<text>音乐</text>
+<button class="musicbutton" style="width: 10px;">></button>
+</view>
+<view class="picture">
+<text class="p1">上传</text>
+<text class="p2">为保证影片效果，请选择3-10个素材</text>
+<button class="picturebutton" style="width: 100px;">
+<text class="p3">+\n</text>
+<text class="p4">添加图片</text>
+</button>
+</view>
+<button class="make" style="width: 100%;">一键生成</button>
+</view>

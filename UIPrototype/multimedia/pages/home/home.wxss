@@ -1,0 +1,114 @@
+/* pages/home/home.wxss */
+.container{
+height: 500px;
+width: 100%;
+/*background-color: chartreuse;*/
+border:1rpx solid lavender;
+flex-direction: column;
+
+}
+.mode{
+height: 40px;
+width: 100%;
+position: fixed;
+top:40px;
+background-color: lightpink;
+font-size: 25px;
+border:1rpx solid lavender;
+line-height: 40px;
+}
+
+.modebutton{
+height: 40px;
+background-color:blue;
+position: fixed;
+top: 40px;
+right: 0;
+}
+.th{
+height: 40px;
+width: 100%;
+position: fixed;
+top:0;
+background-color: lawngreen;
+}
+
+
+input{
+
+height: 40px;
+width: 100%;
+font-size: 20px;
+position:fixed;
+top: 0;
+left: 0;
+border:1rpx solid lavender;
+}
+.music{
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top:80px;
+  background-color: yellow;
+  font-size: 25px;
+  border:1rpx solid lavender;
+  line-height: 40px;
+}
+.musicbutton{
+  height: 40px;
+  background-color:yellowgreen;
+  position: fixed;
+  top: 80px;
+  right: 0;
+}
+.picture{
+height: 300px;
+width: 100%;
+position:fixed;
+top: 120px;
+border:1rpx solid lavender;
+background-color: gainsboro;
+
+}
+.p1{
+height: 40px;
+width: 20%;
+position:fixed;
+top:120px;
+left: 0;
+background-color: honeydew;
+font-size:  25px ;
+line-height: 40px;
+}
+.p2{
+height: 40px;
+width: 80%;
+position: fixed;
+top: 120px;
+right: 0;
+background-color:honeydew;
+font-size: 15px;
+text-align: center;
+line-height: 40px;
+}
+.picturebutton{
+height: 100px;
+position: fixed;
+top:170px;left: 10px;
+}
+.p3{
+font-size: 40px;
+}
+.p4{
+font-size: 12px;
+}
+.make{
+height: 35px;
+width: 100%;
+position: fixed;
+top:420px;
+background-color: cadetblue;
+text-align: center;
+line-height: 17.5px;
+
+}
