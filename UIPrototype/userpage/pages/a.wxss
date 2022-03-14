@@ -1,0 +1,45 @@
+/* pages/a.wxss */
+.head-picture{
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    background-color: azure;
+}
+.header{
+    height: 100px;
+    width: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 100px;
+    padding-left: 100px;
+    text-align: left;
+    background-color:rgb(167, 238, 243);
+}
+.my-map{
+    height: 60px;
+    width: 320px;
+    line-height: 60px;
+    padding-left: 15px;
+    text-align: left;
+    background-color:rgb(201, 231, 241);
+}
+.my-pictures{
+    height: 60px;
+    width: 320px;
+    line-height: 60px;
+    padding-left: 15px;
+    text-align: left;
+    background-color:rgb(155, 187, 209);
+}
+.settings{
+    height: 60px;
+    width: 320px;
+    line-height: 60px;
+    padding-left: 15px;
+    text-align: left;
+    background-color:rgb(201, 231, 241);
+}

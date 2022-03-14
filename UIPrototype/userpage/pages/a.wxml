@@ -1,0 +1,7 @@
+<!--pages/a.wxml-->
+<view class="head-picture"></view>
+<view class="header">NickName</view>
+<view class="my-map">我的地图</view>
+<view class="my-pictures">我的图库</view>
+<view class="settings">账户设置</view>
+<text></text>
