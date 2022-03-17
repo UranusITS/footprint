@@ -6,40 +6,38 @@
 }
 
 .topBar{
+  position: absolute;
+  top: 0;
   height: 6vh;
   width: 100vw; 
   height: 8vh; 
   box-sizing: border-box;
-  position: relative;
   display:flex;
-	/* flex-direction:row; */
-	/* justify-content:flex-start; */
 }
 
 .topBar_input{
-  height: 40px;
-  width: 70%;
+  position: relative;
+  height: 80%;
+  width: 80%;
   background-color: rgb(227, 240, 255);
-  margin: 5px;
-  display: inline;
+  margin: 1%;
+  display: inline-block;
 }
 
 .topBar_button{
+  position: relative;
   height: 80%;
-  width: 20px;
-  margin: 5px;
+  margin: 1%;
   background-color: rgb(202, 247, 221);
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .map_map{
+  top:8vh;
   width: 100%;
   height: 94vh;
 }
 
-.map_display{
-  z-index: 999;
-  width: 30px;
-  height: 30px;
-  
-}
+

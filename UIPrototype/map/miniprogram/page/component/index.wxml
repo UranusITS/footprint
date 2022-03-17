@@ -1,13 +1,18 @@
-
 <view class="map_contianer">
   <view class="topBar">
-    
-      <input class="topBar_input"placeholder="搜索目的地"></input>
-      <button class="topBar_button" style="width: 202rpx; height: 77rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">搜索</button>
+    <input class="topBar_input" bindinput="searchRefresh" placeholder="搜索目的地"></input>
+    <button class="topBar_button" bindtap="pathSearch" style="width: 30%">搜索</button>
   </view>
   <view class="map_area">
-    <map class="map_map" markers="{{markers}}" show-compass show-scale></map>
+    <map 
+      class="map_map" 
+      markers="{{markers}}"
+      show-compass 
+      show-scale
+      show-location="true"
+      enable-rotate="true"
+      enable-traffic="true"
+      bindmarkertap="previewImage"
+    ></map>
   </view>
-
-  
 </view>

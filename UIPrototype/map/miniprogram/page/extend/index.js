@@ -130,5 +130,11 @@ CustomPage({
         App.themeChanged('light')
       }
     }
+  },
+  previewImage(e) {
+    console.log(e.currentTarget.dataset.src);
+    wx.previewImage({
+      urls: [e.currentTarget.dataset.src],
+    })
   }
 })

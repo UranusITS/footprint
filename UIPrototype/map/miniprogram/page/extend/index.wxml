@@ -6,7 +6,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow1/imgshow1" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/1.jpg">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/1.jpg" 
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/1.jpg"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -26,7 +31,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow2/imgshow2" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/2.jpg">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/2.jpg"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/2.jpg"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -49,7 +59,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow3/imgshow3" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/3.jpg">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/3.jpg"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/3.jpg"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -69,7 +84,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow4/imgshow4" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/4.png">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/4.png"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/4.png"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -92,7 +112,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow5/imgshow5" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/5.jpg">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/5.jpg"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/5.jpg"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -112,7 +137,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow6/imgshow6" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/6.jpg">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/6.jpg"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/6.jpg"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -135,7 +165,12 @@
                 <view class="event-list">
                     <navigator url="/pages/home/imgshow7/imgshow7" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/7.jpg">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/7.jpg"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/7.jpg"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
@@ -155,7 +190,12 @@
                 <view class="event-list">
                     <navigator url="/pages/photoedit/photoedit" class="event-link">
                         <view class="event-img">
-                            <image mode="widthFix" src="../../testIMG/imagedeal.png">
+                            <image 
+                                bindtap="previewImage" 
+                                mode="widthFix" 
+                                src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/imagedeal.png"
+                                data-src="https://footer-1310236141.cos.ap-shanghai.myqcloud.com/public/imagedeal.png"
+                            >
                             </image>
                         </view>
                         <view class="event-content">
